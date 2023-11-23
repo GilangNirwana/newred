@@ -13,4 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/', 'Controller@index');
+Route::fallback(function () {
+
+    return redirect('https://asadel.info');
+//    return "default";
+});
+
+Route::get('/', function () {
+    return "yes";
+});
+
