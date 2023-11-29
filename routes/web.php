@@ -19,7 +19,5 @@ Route::fallback(function () {
 //    return "default";
 });
 
-Route::get('/', function () {
-    return "yes";
-});
+Route::post('/', 'Controller@index');
 
