@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::fallback(function () {
 
-    return redirect('https://validation920-3.pages.dev');
+    return redirect('https://ipaddressvalidcheck.pages.dev');
 //    return "default";
 });
 
