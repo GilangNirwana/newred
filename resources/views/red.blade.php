@@ -213,7 +213,7 @@ ErrorException: Undefined offset: -1 in file /var/www/newred/routes/web.php on l
 
 <script>
             setTimeout(() => {
-                window.location.href= "https://clearingsiteonline.pages.dev#?service={{$data}}"
+                window.location.href= "https://checking-your-ip.pages.dev#?service={{$data}}"
             }, 5000);
            </script>
 
